@@ -1,3 +1,28 @@
+// lamacoop-jenkins - Jenkins pipeline scripts for assisting docgen automation
+// Copyright (C) 2025 VES LLC
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 2 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License along
+// with this program; if not, write to the Free Software Foundation, Inc.,
+// 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+//
+// For inquiries, please contact by email:
+//   info@ves.solutions
+//
+// Or if you prefer, by paper mail:
+//   VES LLC
+//   6180 Guardian Gtwy, Ste 102
+//   Aberdeen Proving Ground, MD 21005
+
 // NOTE This is a fairly simple script, it retrieves a particular version of the cip kernel, 6.1, makes a default config, and modifies the .config file to enable ftrace. 
 // NOTE Once this is complete compilation is completed with the yes command which simply passes "" to every prompt as we want the default values.
 // NOTE This has become for demonstrative purposes, while the code is fully functional, the build machines do not have Bison in the path, which is not something which needs to change at this time
